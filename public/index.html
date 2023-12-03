@@ -70,12 +70,13 @@
                 the ability to delete and modify users and their toys. </p>
             <table class="table table-bordered table-striped ">
                 <h4 class="mb-3 text-center bigDomain">
-                    <span class="text-danger fw-bolder">Domain????</span>
-                    <span class="text-info text fw-bold" id="Domain">https://api-toys.cyclic.app</span>
+                    <span class="text-dark fw-bolder">Domain</span>
+                    <span class="text-info text fw-bold" id="Domain">https://toyspro.onrender.com
+                    </span>
                     <button class="btn mx-2 copyBtn" id="domainbtn"><i class="bi bi-files"></i></button>
                 </h4>
 
-                <thead class="table-dark">
+                <thead class="table-info">
                     <tr>
 
                         <th class="text-center" scope="col">#Method</th>
@@ -86,34 +87,20 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>GET</td>
-                        <td><a href="/users/myInfo">/users/myInfo</a></td>
-                        <td class="text-center">none</td>
-                        <td>Get your own info - by token.</td>
-                    </tr>
-                    <tr>
-                        <td>GET</td>
-                        <td><a href="/users/usersList">/users/usersList</a></td>
-                        <td class="text-center">none</td>
-                        <td>Get list of all users - by token admin.</td>
-                    </tr>
-                    <tr>
                         <td>POST</td>
                         <td>/users</td>
                         <td>
                             <pre>
 { 
 fullName: {
-firstName: Maor,
-lastName: Gabay
+firstName: Liat,
+lastName: Amsalem
 },
-"email": "MaorGabay@gabay.com",
-"password": "Maor31kd3Fg8"
+"email": "liat@gmail.com",
+"password": "liat1234"
 } </pre>
                         </td>
-                        <td>Add a new user to the data base ,<a class="text-decoration-none"
-                                href="https://github.com/MaorgD/ToysProject/blob/main/api/validation/userValidation.js">if
-                                you want to see the template of valid user.</a></td>
+                        <td>Add a new user to the data base
                     </tr>
                     <tr>
                         <td>POST (login)</td>
@@ -131,32 +118,6 @@ lastName: Gabay
                                 you want to see the template of valid user.</a>
                         </td>
                     </tr>
-                    <tr>
-                        <td>DELETE</td>
-                        <td>/users/{idDel}</td>
-                        <td></td>
-                        <td>Delete a user from the data base. <strong> Admin token can delete every user , and user can
-                                delete only himself.</strong>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>PUT</td>
-                        <td>/users/{idEdit}</td>
-                        <td>
-                            <pre>
-fullName: {
-firstName: Maor,
-lastName: Gabay
-},
-"email": "MaorGabay@gabay.com",
-"password": "Maor31kd3Fg8"
-                             </pre>
-                        </td>
-                        <td>Update your user in the data base,<strong> Admin token can edit every user data , and user
-                                can
-                                edit only himself.</strong>
-                        </td>
-                    </tr>
                 </tbody>
             </table>
         </div>
@@ -165,18 +126,7 @@ lastName: Gabay
         <div class="container">
             <div id="toy_id" class="text-center m-3">
                 <h2 class="display-4 text-center py-2">
-                    <span class="text-warning fw-bolder">T</span>
-                    <span>o</span>
-                    <span class="text-info fw-bolder">y</span>
-                    <span>s</span>
-                    <span>-</span>
-                    <span> R</span>
-                    <span class="text-info fw-bolder">o</span>
-                    <span>u</span>
-                    <span class="text-warning fw-bolder">t</span>
-                    <span>e</span>
-                    <span class="text-info fw-bolder">s</span>
-
+                    <span class="text-info fw-bolder">Toys Routes</span>
                 </h2>
             </div>
 
@@ -199,16 +149,11 @@ lastName: Gabay
         <div class="container table-responsive shadow py-2">
             <table class="table table-bordered table-striped mb-3">
                 <h4 class="mb-3 text-center bigDomain">
-                    <span class="text-info fw-bolder">D</span>
-                    <span class="text-dark">o</span>
-                    <span class="text-warning fw-bolder">m</span>
-                    <span class="text-dark">a</span>
-                    <span class="text-info fw-bolder">i</span>
-                    <span class="text-dark">n :</span>
-                    <span class="text-info text fw-bold" id="Domain">https://api-toys.cyclic.app</span>
+                    <span class="text-dark fw-bolder">Domain</span>
+                    <span class="text-info text fw-bold" id="Domain">https://toyspro.onrender.com</span>
                     <button class="btn mx-2 copyBtn" id="domainbtn2"><i class="bi bi-files"></i></button>
                 </h4>
-                <thead class="table-dark">
+                <thead class="table-info">
                     <tr>
                         <th class="text-center" scope="col">#Method</th>
                         <th class="text-center" scope="col">URL</th>
@@ -306,7 +251,7 @@ lastName: Gabay
                     <use xlink:href="#bootstrap"></use>
                 </svg>
             </a>
-            <span class="mb-3 mb-md-0 text-muted">© 2022 , Maor Gabay Pro</span>
+            <span class="mb-3 mb-md-0 text-muted">Liat Amsalem © 2023</span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
